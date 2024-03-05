@@ -9,6 +9,9 @@ void main(){
     Text('レモン'),
     Text('リンゴ'),
     Text('ブドウ'),
+    Text('TEST'),
+    Text('TEST'),
+    
   ],); 
 
   const row = Row(
@@ -20,7 +23,8 @@ void main(){
   const a = MaterialApp(
     home:Scaffold(
       body:Center(
-        child: row,
+        child: row ,
+
       ),
     ),
   );
